@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car clicker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="py-5 text-center">
+            <h2 class="display-4">
+                Car clicker
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 order-md-1 mb-4">
+                <h4 style="font-weight: bold;">CAR LIST</h4>
+                <ul id="car-list" class="list-group mb-3"></ul>
+            </div>
+            <div class="col-md-8 order-md-2">
+                <div id="car">
+                    <div class="row">
+                        <h2 style="font-weight: bold;" class="text-center display-4 col" id="car-name"></h2>
+                        <div class="text-center display-4 col">
+                            <p>
+                                vote count:
+                                <span id="car-count"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <img style="width: 100%; margin: auto;" id="car-img" src="" alt="muscle car" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
